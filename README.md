@@ -11,22 +11,7 @@ High-resolution GeoJSON data for **Lagos State, Nigeria**. Includes geojson file
 
 ## 💵 **Purchase the Dataset**
 Support my work and get instant access to the dataset for **$2** on Gumroad:  
-👉 [Buy on Gumroad](https://geodatajade.gumroad.com/l/lagosgeojson?autocomplete=true&layout=discover&query=lagos+state+&recommended_by=search&_gl=1*1kw5f3h*_ga*MjU3MTM4NzQ4LjE3NDY4MDI2OTE.*_ga_6LJN6D94N6*czE3NDY4NzA5MjYkbzQkZzEkdDE3NDY4NzM0MDUkajAkbDAkaDA.)
+👉 [Buy on Gumroad](https://geodatajade.gumroad.com/l/lagosgeojson)
 
-## 🚀 **How to Use**
-You can easily integrate this data into your projects:
-```javascript
-map.addSource('nasarawa-data', {
-  type: 'geojson',
-  data: './Nasarawa state.json'
-});
-map.addLayer({
-  id: 'nasarawa-layer',
-  type: 'fill',
-  source: 'nasarawa-data',
-  paint: {
-    'fill-color': '#088',
-    'fill-opacity': 0.5
-  }
-});
+
 
